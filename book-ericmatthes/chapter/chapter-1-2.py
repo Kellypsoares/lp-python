@@ -21,3 +21,11 @@ print("Albert Einstein certa vez disse: “Uma pessoa que nunca cometeu um erro 
 famous_person = "Albert Eisnten"
 message = "Albert Einstein certa vez disse: “Uma pessoa que nunca cometeu um erro jamais tentou nada novo.”"
 print( famous_person + message)
+
+age = 24
+message = "happy " + str(age) + "rd birthday"
+print (message)
+#é necessário usar srt(age) para o python interpretar o número como caracteres 
+import this
+
+
