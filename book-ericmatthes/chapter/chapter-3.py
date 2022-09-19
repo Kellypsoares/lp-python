@@ -1,6 +1,6 @@
 fruits = ["banana", "orange", "grape", "apple"]
 print(fruits)
-fruits = ["banana", "orange", "grape", "apple"]
+fruits = ["banana", "orange", "grape", "apple", "kiwi", "lime", "coconut", "mango", "stranberry", "raspberry"]
 print(fruits)
 fruits[0] = "watermelon"
 print(fruits)
@@ -27,3 +27,17 @@ print(fruits)
 
 fruits.sort(reverse=True)
 print(fruits)
+
+
+print("\nHere is the original list:")
+print(fruits)
+print("\nHere is the sorted list:")
+print(sorted(fruits))
+print("\nHere is the original list again:")
+print(fruits)
+
+fruits.reverse()
+print(fruits)
+
+numberofitems = len(fruits)
+print(numberofitems)
