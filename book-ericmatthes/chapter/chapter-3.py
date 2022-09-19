@@ -1,3 +1,6 @@
+from re import S
+
+
 fruits = ["banana", "orange", "grape", "apple"]
 print(fruits)
 fruits = ["banana", "orange", "grape", "apple", "kiwi", "lime", "coconut", "mango", "stranberry", "raspberry"]
@@ -27,6 +30,7 @@ print(fruits)
 
 fruits.sort(reverse=True)
 print(fruits)
+S
 
 
 print("\nHere is the original list:")
