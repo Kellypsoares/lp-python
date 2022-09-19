@@ -1,3 +1,10 @@
-ask import Flask, request
-lask(__name__)
-@app.route    
+from flask import Flask
+
+
+pf = Flask(__name__)
+
+@pf.route("/")
+
+def hello_world():
+    return "<p>Hello, World!</p>"
+pf.run()
