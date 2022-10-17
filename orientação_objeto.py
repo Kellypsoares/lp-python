@@ -6,4 +6,4 @@ class Aluno: #classe se coloca em letra maiuscula
         def diga_oi(self):
                 return "Oi meu nome eh" + self.nome
 
-a = 
+a = Aluno ("edu", "aaa-111")
