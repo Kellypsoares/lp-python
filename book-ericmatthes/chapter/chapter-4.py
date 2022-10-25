@@ -65,4 +65,41 @@ students = ["henrique", "bruno","kelly", "pedro", "andressa"]
 print("Here are the first three students on my class")
 for student in students[0:3]:
         print(student.title())
+#Para copiar uma lista, podemos criar uma fatia que inclua 
+# ...a lista original inteira omitindo o primeiro e o segundo índices ([:]).
+# ...Isso diz a Python para criar uma lista que começa no primeiro item e termina no último, 
+# ...gerando uma cópia da lista toda.
 
+my_foods = ["hambuerguer", "lasagna", "meat", "cheesecake"]
+friend_foods = my_foods[:]
+print("My favorite foods are: ") 
+print(my_foods)
+print("\nMy friends favorite foods are:")
+print(friend_foods)
+#Para provar que realmente temos duas listas separadas, 
+#...acrescentaremos um alimento em cada lista e mostraremos 
+#...que cada lista mantém um registro apropriado das comidas
+#...favoritas de cada pessoa:
+
+my_foods.append("cookie")
+friend_foods.append("pizza")
+print("My favorite foods are: ") 
+print(my_foods)
+print("\nMy friends favorite foods are:")
+print(friend_foods)
+
+#tuplas criam listas que não podem ser modificadas, 
+# ...ao invés de usar colchetes usamos ()
+
+dimensions =  (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+
+for dimension in dimensions:
+        print(dimension)
+#Embora não seja possível modificar uma tupla, 
+# ...podemos atribuir um novo valor a uma variável que armazena uma tupla. 
+# Portanto, se quiséssemos alterar nossas dimensões, poderíamos redefinir a tupla toda:
+dimensions = (400, 100)        
+for dimension in dimensions:
+        print(dimension)
